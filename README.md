@@ -6,3 +6,7 @@ Este é o aplicativo front-end que se integra com a API de autenticação e post
 
 - npm i
 - npm run web
+
+### Como Integrar a API ao Aplicativo
+
+A integração entre o aplicativo e a API foi realizada através de requisições HTTP. A API desenvolvida em **TypeScript** fornece os endpoints necessários para o registro, login e gerenciamento de postagens. A seguir, explicamos como o aplicativo se comunica com a API e utiliza esses endpoints.
