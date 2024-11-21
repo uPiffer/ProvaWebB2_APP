@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f9f9fb;
+  color: #444;
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 20px;
+  text-align: center;
+  background-color: #fafafa;
+}
+
+.main-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 8px;
+}
+
+.description-text {
+  font-size: 17px;
+  color: #707070;
+  margin-bottom: 35px;
+}
+
+.action-container {
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-btn {
+  padding: 14px;
+  width: 48%;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.signin-btn {
+  background-color: #9b59b6;
+  color: #fff;
+}
+
+.signin-btn:hover {
+  background-color: #8e44ad;
+}
+
+.signup-btn {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.signup-btn:hover {
+  background-color: #d35400;
+}
+
+.footer-note {
+  margin-top: 40px;
+  color: #969696;
+  font-size: 13px;
+}
+
+.footer-note a {
+  color: #9b59b6;
+  text-decoration: none;
+}
+
+.footer-note a:hover {
+  text-decoration: underline;
+}
